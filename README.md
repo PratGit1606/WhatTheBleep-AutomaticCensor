@@ -1,1 +1,15 @@
 # WhatTheBleep-AutomaticCensor
+
+Our program is a cutting-edge solution that caters to the diverse needs of our users. It functions as an automatic content censor, offering the capability to process and filter out inappropriate language and content from a wide range of media, including videos, audio files, and text documents. We understand that there are countless scenarios where one might need to use online content, be it for educational, professional, or family purposes, but the presence of offensive material can be a hindrance. Our program simplifies this by allowing users to upload their files, which are then transcribed and meticulously scanned for any objectionable words or phrases. The program also provides users with the flexibility to define their own custom censorship rules, giving them greater control over the content they consume or share. In a world where the internet is flooded with explicit content, our program aims to empower users to curate and create a more respectful and safe digital environment tailored to their unique requirements.
+## How we built it
+ 
+We developed our program using a combination of HTML, Reflex (a Python library), and Python, creating a robust and user-friendly application. The front end, built with HTML, provides a user-friendly interface for interacting with the system. Reflex, on the other hand, played a pivotal role in constructing webpages that seamlessly connect with Python, facilitating the necessary backend operations. Reflex was an invaluable asset in our project, bridging the gap between our user-friendly front end and the robust backend. It not only facilitated a smooth transition but also empowered us to incorporate essential features like video playback into our web application. Thanks to Reflex, our project achieved a polished and complete look, enhancing the overall user experience. This dynamic library played a key role in ensuring that our application seamlessly integrated user interactions with the powerful Python backend, resulting in a more engaging and refined final product. Python served as the core of our backend, and we harnessed the power of libraries like MoviePy and AssemblyAI to enhance our program's capabilities. With MoviePy, we adeptly handled video and audio files, enabling dynamic editing based on the transcribed content. AssemblyAI was instrumental in real-time caption generation, complete with timestamps. To ensure content appropriateness, we leveraged Python to cross-reference the transcript against a database of profanity, stored in a text file, as well as any custom words provided by the user. This process allowed us to pinpoint and redact specific timestamps associated with objectionable content, ultimately producing a censored, refined version of the media. The result is a versatile and effective solution for filtering and enhancing digital content.
+
+
+To Run the Program
+
+Open your terminal and run the following command
+
+1) run "cd VideoCensor"
+2) run "reflex run"
+3) Follow the basic instructions on thr website
