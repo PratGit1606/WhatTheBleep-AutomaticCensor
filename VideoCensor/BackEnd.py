@@ -52,6 +52,9 @@ def censored_words_timestamps(content, words, timing):
                 timing.append((middle,end))
                 start = end
                 content[i]=content[i].replace(w, (" "+("*"*(len(w)-1))))
+    audio = AudioFileClip('result.wav')
+    length = audio.duration
+    timing.append((start,length))
     return timing, content
 
 def transcript_censor():
